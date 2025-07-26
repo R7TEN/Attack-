@@ -18,7 +18,7 @@ app = Client("session_file", api_id=api_id, api_hash=hash_id)
 
 # |========> Global variables <========|
 
-main_admin_id = 5551934180
+main_admin_id = 8152485028
 
 is_off = False
 
@@ -75,7 +75,7 @@ async def new_message_handler(client, message):
         return
 
     txt = """
-**♨️مشاهده فعال بودن ربات  مرتضی**
+**مشاهده فعال بودن ربات  ویک**
 ➡️ `/ping`
 ┅┅━━━━┅┅━━━━┅┅━━━━┅┅━━
 **📍روشن و خاموش کردن ربات**
@@ -148,7 +148,7 @@ async def new_message_handler(client, message):
 ➡️ `/deltext`
 ┅┅━━━━┅┅━━━━┅┅━━━━┅┅━━
 
-🔰 ** مالک :  @MoRteZa  ** 🔰
+
 """
 
     await message.reply(txt, quote=True)
